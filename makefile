@@ -1,4 +1,4 @@
-ipquoridor.15-063.15-064 : main.o cmds.o playingCmds.o createMatrices.o bfs.o undo.o Utilities.o minimax.o
+quoridor : main.o cmds.o playingCmds.o createMatrices.o bfs.o undo.o Utilities.o minimax.o
 	gcc -o ipquoridor.15-063.15-064 main.o cmds.o playingCmds.o createMatrices.o bfs.o undo.o Utilities.o minimax.o
 main.o : main.c mainUtilities.h matricesUtilities.h
 	gcc -c main.c
