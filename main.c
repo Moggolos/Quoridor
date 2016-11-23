@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "mainUtilities.h"
-#include "matricesUtilities.h"
+#include "MainUtilities.h"
+#include "MatricesUtilities.h"
 
 
 
